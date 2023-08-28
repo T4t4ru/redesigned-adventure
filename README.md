@@ -7,8 +7,8 @@ This project is an example of an LLVM Pass implementation that performs code mor
 1. Make sure you have LLVM and clang installed.
 2. Download the file `LLVM_MorphingPass.cpp ` from this repository.
 3. Compile LLVM Pass and run it on your LLVM IR code:
-   'clang++ -g -O3 -shared -o CLLVM_MorphingPass.so -I /путь/к/llvm/include -fPIC CODAI_LLVM_MorphingPass.cpp
-opt -load ./LLVM_MorphingPass.so -morphing-pass -S input.ll -o output.ll'
+  `clang++ -g -O3 -shared -o CLLVM_MorphingPass.so -I /path/к/llvm/include -fPIC CODAI_LLVM_MorphingPass.cpp
+opt -load ./LLVM_MorphingPass.so -morphing-pass -S input.ll -o output.ll`
 
 ## How the project works
 
